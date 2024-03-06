@@ -17,7 +17,13 @@ namespace Method_Class_Assignment_Submission
             //Call the method in the class, passing in two numbers
             mathOp.Numbers(5, 15);
 
+            DisplayInfo(number: 30);
+
             Console.ReadLine();
+        }
+        static void DisplayInfo(int number)
+        {
+            Console.WriteLine($"Number: {number}");
         }
     }
 }
